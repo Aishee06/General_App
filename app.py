@@ -6,6 +6,7 @@ from PIL import Image, ImageTk
 from ttkthemes import ThemedStyle
 import os
 
+
 class Application(tk.Tk):
     def __init__(self):
         super().__init__()
